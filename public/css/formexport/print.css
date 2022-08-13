@@ -1,0 +1,55 @@
+body{
+    font-family: "Times New Roman" !important;
+    max-width: 300px;
+}
+
+@media print {
+    body{
+        font-family: "Times New Roman" !important;
+        max-width: 300px !important;
+    }
+
+}
+.div-title{
+    text-align: center;
+}
+label{
+    font-weight: 100 !important;
+}
+.text-of-money{
+    font-style: italic;
+}
+.div-signature{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.div-signature .item-signature{
+
+}
+
+table  tr td:nth-child(3),
+table  tr td:nth-child(4),
+table  tr td:nth-child(5),
+table  tr td:nth-child(6),
+table  tr td:nth-child(7),
+table  tr td:nth-child(8)
+{
+    text-align: right;
+}
+/*.div-title .center{*/
+/*    */
+/*}*/
+.div-payment,
+.div-service
+{
+    margin-top: 20px;
+}
+td,  th{
+    border: 1px solid black;
+}
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}

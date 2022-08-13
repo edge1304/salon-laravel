@@ -1,0 +1,104 @@
+.head-find{
+
+}
+
+.spinner-border{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+.div-find-customer{
+    position: relative;
+}
+.div-find-customer .spinner-border{
+   top: 41px;
+    right: 12px;
+    display: none;
+}
+.container-fluid{
+    margin-top: 20px;
+}
+
+#table_product tr  .find-product,
+#table_product tr  .find-employee{
+    position: relative;
+}
+
+#table_product tr  .find-product .spinner-border,
+#table_product tr .find-employee .spinner-border{
+    position: absolute;
+    top: 11px;
+    right: 5px;
+    display: none;
+}
+#div-table-main{
+    height: 520px;
+    width: 100%;
+    overflow-x: auto;
+    /*overflow: auto;*/
+}
+#div-info-payment{
+    margin-top: 20px;
+    width: 100%;
+    overflow-x: auto;
+}
+.col-name-product{
+    width: 30%;
+}
+.integer{
+    text-align: right;
+}
+@media only screen and (max-width: 1366px) {
+    #div-table-main {
+        height: 430px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #table_product tbody tr input {
+        width: 90px;
+    }
+    #table_product tbody tr td div:first-child{
+        width: 150px;
+    }
+    #table_product tbody tr td div:first-child input{
+        width: 100%;
+    }
+
+    #div-info-payment td div{
+        width: max-content;
+    }
+    #div-info-payment td input{
+        width: 100%;
+    }
+    #div-info-payment td button{
+        width: max-content;
+    }
+
+}
+
+@media only screen and (max-width: 386px) and (min-width: 320px){
+
+    #table_product tbody tr input {
+        width: 80px;
+    }
+    #table_product tbody tr td div:first-child{
+        width: 150px;
+    }
+    #table_product tbody tr td div:first-child input{
+        width: 100%;
+    }
+
+    #div-info-payment td div{
+        width: max-content;
+    }
+    #div-info-payment td input{
+        width: 80px;
+    }
+    #div-info-payment td button{
+        width: max-content;
+    }
+    #div-table-main {
+        height: 320px;
+    }
+}

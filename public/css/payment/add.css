@@ -1,0 +1,13 @@
+.spinner-border{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+.div-find-customer{
+    position: relative;
+}
+.div-find-customer .spinner-border{
+    top: 41px;
+    right: 12px;
+    display: none;
+}

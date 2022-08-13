@@ -1,0 +1,121 @@
+.div-relative-btn {
+    position: relative;
+}
+
+.div-relative-btn .btn {
+    position: absolute;
+    top: 21px;
+}
+.modal-80 {
+    max-width: 80% !important;
+}
+
+.modal-60 {
+    max-width: 60% !important;
+}
+
+.modal-70 {
+    max-width: 70% !important;
+}
+
+.modal-90 {
+    max-width: 90% !important;
+}
+
+.modal-85 {
+    max-width: 85% !important;
+}
+
+.modal-75 {
+    max-width: 75% !important;
+}
+
+.modal-65 {
+    max-width: 65% !important;
+}
+
+.modal-50 {
+    max-width: 50% !important;
+}
+
+.modal-100 {
+    max-width: 100% !important;
+}
+
+.modal-95 {
+    max-width: 95% !important;
+}
+
+
+
+/* ----------------------- */
+
+.modal-80 {
+    max-width: 80% !important;
+}
+
+.modal-60 {
+    max-width: 60% !important;
+}
+
+.modal-70 {
+    max-width: 70% !important;
+}
+
+.modal-90 {
+    max-width: 90% !important;
+}
+
+.modal-85 {
+    max-width: 85% !important;
+}
+
+.modal-75 {
+    max-width: 75% !important;
+}
+
+.modal-65 {
+    max-width: 65% !important;
+}
+
+.modal-50 {
+    max-width: 50% !important;
+}
+
+.modal-100 {
+    max-width: 100% !important;
+}
+
+.modal-95 {
+    max-width: 95% !important;
+}
+
+table img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50% !important;
+    vertical-align: middle;
+}
+.list-ajax{
+    min-width: 100%;
+    position: absolute;
+    z-index: 100;
+    background-color: wheat;
+    width: max-content;
+    overflow: auto;
+    max-height: 200px;
+}
+div.container-fluid{
+    margin-top: 20px;
+}
+/*td , th{*/
+/*    border: 1px solid #e3e6f0 !important;*/
+/*    text-align: left;*/
+/*    padding: 8px;*/
+
+/*}*/
+/*thead th{*/
+/*    vertical-align: bottom;*/
+/*    border-bottom: 2px solid #e3e6f0;*/
+/*    border-bottom-width: 2px;*/
+/*}*/

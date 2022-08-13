@@ -1,0 +1,18 @@
+#popupAdd .modal-body{
+
+}
+.input-select-image {
+    display: none;
+}
+
+.div-select-image-popup {
+    border: 1px dotted;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+.div-select-image-popup img {
+  
+    max-width: 80%;
+    max-height: 80%;
+}
